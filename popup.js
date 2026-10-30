@@ -1,5 +1,5 @@
 let timeLeft = 25 * 60; // 25 minutes in seconds
-let timerID = null
+let timerId = null
 
 
 const timer = document.getElementById('timer');
