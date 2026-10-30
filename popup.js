@@ -3,9 +3,9 @@ let timerID = null
 
 
 const timer = document.getElementById('timer');
-const startButton = document.getElementById('start-button');
-const resetButton = document.getElementById('reset-button');
-const pauseButton = document.getElementById('pause-button');
+const startButton = document.getElementById('start');
+const resetButton = document.getElementById('reset');
+const pauseButton = document.getElementById('pause');
 
 function updateDisplay() {
     const minutes = Math.floor(timeLeft / 60);
